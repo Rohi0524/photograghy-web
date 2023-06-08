@@ -1,0 +1,741 @@
+/*
+Theme Name: CKarla
+Theme URI: http://shtheme.org/demosd/ckarla
+Author: Shtheme
+Author URI: http://shtheme.com
+Description: In 2021, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: ckarla
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+p.comment-form-cookies-consent {
+    display: none;
+}
+
+span.ajax-loader {
+    display: none !important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    color: #111;
+    margin: 10px 0 0 0;
+}
+
+.search-custom form input {
+    width: 100%;
+    padding: 9px 12px;
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+}
+
+.search-custom form button {
+    border: 1px solid #dd888d;
+    color: #fff;
+    font-size: 18px;
+    height: 44px;
+    position: relative;
+    width: 44px;
+    cursor: pointer;
+    float: right;
+    margin-top: -56px;
+    padding: 0;
+    letter-spacing: 0;
+    background-color: #dd888d;
+}
+
+.search-custom form button i {
+    color: #fff;
+}
+
+.search-custom form button:hover {
+    background: #fff;
+    color: #dd888d;
+}
+
+.search-custom form button:hover i {
+    color: #dd888d;
+}
+
+.search-custom h4 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h3.comment-reply-title {
+    position: relative;
+    text-transform: none;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: normal;
+    color: #111;
+    padding: 0;
+    z-index: 2;
+}
+
+#form input.submit {
+    padding: 6px 24px;
+    border: 1px solid #dd888d;
+    background: #dd888d;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    margin: 15px 0;
+    cursor: pointer;
+    line-height: 1.75em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#form input.submit:hover {
+    background: #fff;
+    color: #dd888d;
+}
+
+.widget_search form {
+    position: relative;
+}
+
+.widget_search form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #fff;
+}
+
+.widget_search form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    color: #000;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+ul.pagination {
+    padding: 0;
+    margin: 30px 0 0 0;
+    text-align: center;
+    display: block;
+}
+
+ul.pagination li {
+    display: inline-block;
+    margin: 0 5px;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 5%);
+}
+
+ul.pagination li a {
+    background: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+}
+
+ul.pagination span.current {
+    background-color: #dd888d;
+    border: 1px solid #dd888d;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0 !important;
+}
+
+ul.pagination li a:hover {
+    opacity: 1;
+    text-decoration: none;
+    box-shadow: 0px 16px 28px 0px rgb(0 0 0 / 20%);
+    background-color: #dd888d;
+    border: 1px solid #dd888d;
+    color: #fff;
+}
+
+ul.pagination li a:hover i {
+    color: #fff;
+}
+
+.blog-sidebar .widget .recent a {
+    margin-top: 10px;
+}
+
+.widget_categories ul li a:before {
+    content: "\e649";
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.blog-sidebar ul.wp-tag-cloud li {
+    margin: 3px !important;
+    padding: 6px 16px;
+    background-color: #dd888d;
+    color: #fff !important;
+    float: left;
+}
+
+.blog-sidebar ul.wp-tag-cloud li a {
+    font-size: 14px !important;
+    color: #fff;
+}
+
+.blog-sidebar ul.wp-tag-cloud li:hover,
+.blog-sidebar ul.wp-tag-cloud li a:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+.banner-padding .cat.error {
+    padding: 60px;
+}
+
+a.karla-btn:hover {
+    color: #dd888d !important;
+}
+
+.banner-padding .error h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.banner-padding .error span {
+    font-size: 28px;
+}
+
+body.sidebar .karla-homepage-slider {
+    padding-top: 0;
+}
+
+body.sidebar .banner-padding {
+    margin-top: 0;
+}
+
+input.karla-btn {
+    padding: 6px 24px;
+    background: #dd888d;
+    color: #fff;
+    font-weight: 400;
+    margin: 15px 0;
+    cursor: pointer;
+    border: 1px solid #dd888d;
+}
+
+input.karla-btn:focus {
+    background: #dd888d;
+}
+
+input.karla-btn:hover {
+    background: #fff;
+    color: #dd888d !important;
+}
+
+.karla-comment>h3 {
+    margin-bottom: 40px;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 0;
+    padding: 5px;
+}
+
+/* ======= Sidebar style ======= */
+
+body.sidebar #ckarla-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+body.sidebar #ckarla-aside {
+    padding: 60px 40px;
+    width: 20.9%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 1001;
+    background: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border: none;
+    border-right: 1px solid #FBF9F9;
+    scrollbar-width: none;
+}
+
+@media screen and (max-width: 1200px) {
+    body.sidebar #ckarla-aside {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.sidebar #ckarla-aside {
+        width: 270px;
+        -moz-transform: translateX(-270px);
+        -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        -o-transform: translateX(-270px);
+        transform: translateX(-270px);
+        padding: 60px 30px 0 30px;
+    }
+}
+
+/* logo */
+
+body.sidebar #ckarla-aside .ckarla-logo {
+    text-align: center;
+    margin-bottom: 60px;
+    display: block;
+}
+
+body.sidebar #ckarla-aside .ckarla-logo h2 {
+    display: block;
+    width: 100%;
+    position: relative;
+    font-family: 'Paris Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    color: #000;
+    line-height: 1.75em;
+}
+
+body.sidebar #ckarla-aside .ckarla-logo span {
+    margin-top: 5px;
+    line-height: 1.5em;
+    margin-right: 5px;
+    display: block;
+    color: #505050;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 9px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+body.sidebar #ckarla-aside .ckarla-logo .logo-img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body.sidebar #ckarla-aside .ckarla-logo {
+        margin-bottom: 60px;
+    }
+}
+
+body.sidebar #ckarla-aside .ckarla-logo a {
+    display: inline-block;
+    text-align: center;
+    color: #dd888d;
+}
+
+body.sidebar #ckarla-aside .ckarla-logo a span {
+    display: block;
+    margin-top: 0px;
+}
+
+/* Menu */
+
+body.sidebar #ckarla-aside .ckarla-main-menu,
+body.sidebar #ckarla-aside .ckarla-main-menu ul,
+body.sidebar #ckarla-aside .ckarla-main-menu ul li,
+body.sidebar #ckarla-aside .ckarla-main-menu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    body.sidebar #ckarla-aside .ckarla-main-menu {
+        margin-bottom: 30px;
+    }
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul {
+    display: none;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li:last-of-type {
+    border-bottom: 1px solid #FBF9F9;
+    padding-bottom: 13px;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>a {
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #000;
+    margin: 13px 0 0 0;
+    padding: 0 0 13px 0;
+    list-style: none;
+    border-bottom: 1px solid #FBF9F9;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>a:hover,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.active>a,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.open>a {
+    color: #dd888d;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.open>a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25em;
+    color: #dd888d;
+    margin: 13px 0 0 0;
+    padding: 0 0 13px 0;
+    list-style: none;
+    border-bottom: none;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li:last-child>a,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.last>a {}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>a:hover>span::after,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.active>a>span::after,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li.open>a>span::after {
+    border-color: #dd888d;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li a {
+    padding: 8px 0 8px 15px;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    color: #505050;
+    line-height: 1.25em;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li:hover>a,
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li.open>a,
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li.active>a {
+    color: #dd888d;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul ul li a {
+    margin-left: 15px;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>ul>li:last-child>a,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>ul>li.last>a {
+    padding-bottom: 8px;
+}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>ul>li.open:last-child>a,
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>ul>li.last.open>a {}
+
+body.sidebar #ckarla-aside .ckarla-main-menu>ul>li>ul>li.open:last-child>ul>li:last-child>a {}
+
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li.active>a::after,
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li.open>a::after,
+body.sidebar #ckarla-aside .ckarla-main-menu ul ul li>a:hover::after {}
+
+/* footer */
+
+body.sidebar #ckarla-aside .ckarla-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer p {
+    font-size: 9px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer a {
+    color: #dd888d;
+}
+
+@media screen and (max-width: 768px) {
+    body.sidebar #ckarla-aside .ckarla-footer {}
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #f4f4f4;
+    top: 50%;
+    margin-top: -1px;
+    right: 100%;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #f4f4f4;
+    top: 50%;
+    margin-top: -1px;
+    right: auto;
+    left: 100%;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul li {
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ececec;
+    width: 36px;
+    height: 36px;
+    line-height: 38px;
+    text-align: center;
+    transition: all 0.3 ease-in-out;
+    border-radius: 50%;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul li:last-child {
+    margin-right: 0px
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul li:hover {
+    border: 1px solid #dd888d;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul li a {
+    color: #505050;
+    font-size: 12px;
+}
+
+body.sidebar #ckarla-aside .ckarla-footer ul li a:hover,
+body.sidebar #ckarla-aside .ckarla-footer ul li a:active,
+body.sidebar #ckarla-aside .ckarla-footer ul li a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #dd888d;
+}
+
+/* important offcanvas for menu */
+
+body.offcanvas.sidebar {
+    overflow-x: hidden;
+}
+
+body.offcanvas.sidebar #ckarla-aside {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    width: 270px;
+    z-index: 999;
+    position: fixed;
+}
+
+body.offcanvas.sidebar #ckarla-main,
+body.offcanvas.sidebar .ckarla-nav-toggle {
+    top: 0;
+    -moz-transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+    transform: translateX(270px);
+}
+
+/* ======= Content style ======= */
+
+body.sidebar #ckarla-main {
+    width: 79.2%;
+    float: right;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    body.sidebar #ckarla-main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.sidebar #ckarla-main {
+        width: 100%;
+    }
+    body.sidebar .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+body.sidebar .karla-post-section {
+    padding-top: 0;
+}
+
+/* ======= Scrollbar style  ======= */
+
+body.sidebar ::-webkit-scrollbar {
+    width: 0px;
+}
+
+body.sidebar ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+body.sidebar ::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+body.sidebar ::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+/* ======= Travel Dates style ======= */
+
+.travel-dates-table {
+    width: 100%;
+    text-align: center;
+}
+
+.travel-dates-table h6 {
+    color: #000;
+    margin-bottom: 0;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.travel-dates-table p {
+    font-family: 'Paris Script';
+    letter-spacing: 0;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 4px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.travel-dates-table span {
+    color: #505050;
+    margin-bottom: 4px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-align: right;
+}
+
+.travel-dates-table tr {
+    padding: 10px;
+    border-bottom: 1px solid #dd888d;
+}
+
+.travel-dates-table tr:last-child {
+    padding: 10px;
+    border-bottom: 0px solid #dd888d;
+}
+
+.travel-dates-table tr td.vr {
+    position: absolute;
+    margin: 0;
+    border: 0;
+    border-left: 1px solid;
+    border-color: #dd888d;
+    width: 1px;
+    height: 100%;
+    z-index: 10;
+    top: -2px;
+}
+
+.travel-dates-table tr td.hr {
+    width: 100px;
+    border-top: 1px solid #dd888d;
+    margin: 0 0 20px 0;
+}
+
+.childtravel-dates-table {
+    width: 100%;
+}
+
+.childtravel-dates-table tr:last-child td {
+    border: none;
+}
+
+/*Elementor*/
+
+.elementor hr {
+    margin: 10px auto 10px !important;
+}
+
+.elementor hr.line-hr-left {
+    margin: 0 0 20px 0 !important;
+}
+
+.elementor-text-editor .row {
+    margin: 0;
+}
+
+.dialog-type-lightbox {
+    display: none !important;
+}
+
+body.sidebar .karla-homepage-slider .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
